@@ -9,11 +9,6 @@ module.exports = {
     node: true,
   },
   extends: [
-    "airbnb",
-    "airbnb/hooks",
-    "plugin:react/recommended",
-    "plugin:unicorn/recommended",
-    "plugin:promise/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "prettier/@typescript-eslint",
@@ -39,16 +34,7 @@ module.exports = {
   rules: {
     // 具体添加的其他规则大家可查看我的 github 查看
     // https://github.com/vortesnail/react-ts-quick-starter/blob/master/.eslintrc.js
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "never",
-        jsx: "never",
-        ts: "never",
-        tsx: "never",
-      },
-    ],
+
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "react/jsx-filename-extension": "off",
@@ -56,5 +42,10 @@ module.exports = {
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "import/newline-after-import": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "no-console": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
   },
 };
