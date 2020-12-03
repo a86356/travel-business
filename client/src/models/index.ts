@@ -1,4 +1,3 @@
-// @ts-ignore
 import { Models } from "@rematch/core";
 import { dolphins } from "./dolphins";
 import { sharks } from "./sharks";

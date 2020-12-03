@@ -1,4 +1,3 @@
-// @ts-ignore
 import { createModel } from "@rematch/core";
 import { delay } from "./utils";
 import { RootModel } from ".";

@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import App from "./app";
 import { store } from "./store";
 
+import "./assets/common.less";
+
 import { Provider } from "react-redux";
 ReactDOM.render(
   <React.StrictMode>
