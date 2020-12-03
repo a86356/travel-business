@@ -5,6 +5,8 @@ import "./index.less";
 import A from "./a";
 import B from "./b";
 import homeContainer from "./views/home/Container";
+import userContaioner from "./views/user/Container";
+import userEdit from "./views/user/edit";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={homeContainer} />
           <Route path="/home" exact component={homeContainer} />
+          <Route path="/user" exact component={userContaioner} />
+          <Route path="/user/edit" exact component={userEdit} />
           <Route path="/a" exact component={A} />
           <Route path="/b" exact component={B} />
         </Switch>

@@ -27,7 +27,7 @@ export default function Http({
       body: JSON.stringify(body),
     };
   }
-  const base = "http://travelapi.weixin1234.top/api";
+  const base = "http://localhost:3000/api";
   return new Promise((resolve, reject) => {
     fetch(base + url, params)
       .then((res) => res.json())

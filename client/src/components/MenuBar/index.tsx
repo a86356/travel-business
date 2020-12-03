@@ -35,7 +35,6 @@ export default function MenuBar() {
   ]);
 
   const { history, pathname } = useRouterHook();
-  console.log(pathname);
 
   return (
     <div className="menu-bar">
