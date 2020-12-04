@@ -3,20 +3,18 @@ import MenuBar from "../../components/MenuBar";
 import { List } from "antd-mobile";
 import "./index.less";
 import { useSelector, useDispatch } from "react-redux";
-//import useRouterHook from "../../../../custom-hooks/useRouterHook";
+
+import useRouterHook from "../../custom-hooks/useRouterHook";
 
 export default function userContainer() {
+  const { history, location } = useRouterHook();
   const handleClick = () => {
-    // history.push({
-    //   pathname: "/user/edit",
-    //   state: {
-    //     id: 10,
-    //   },
-    // });
+    history.push({
+      pathname: "/user/edit",
+    });
   };
 
   const dispatch = useDispatch();
-  //const { history, location } = useRouterHook();
 
   const { user, userInfo } = useSelector((state: any) => {
     return {
