@@ -21,14 +21,23 @@
   <component name="ChangeListManager">
     <list default="true" id="06a92184-5fd6-4a0e-b4ad-9df0079f96da" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/client/src/assets/blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CreatePortal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Modal/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/components/showLoading/index.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/components/showLoading/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/custom-hooks/useObserverHook.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/enums/common.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/enums/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/models/house.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/models/order.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/models/search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/router/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/timer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/house/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/banner/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/info/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/list/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/house/index.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/views/login/Container.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/views/login/components/header/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/views/login/components/hot/index.tsx" afterDir="false" />
@@ -53,7 +62,9 @@
       <change beforePath="$PROJECT_DIR$/client/src/index.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/home/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/home/components/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/home/components/search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/home/components/search/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/user/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/user/Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/user/edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/user/edit/index.tsx" afterDir="false" />
     </list>
@@ -67,6 +78,7 @@
       <list>
         <option value="Less File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -88,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/views/house/components/footer" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,less,css}" />
@@ -100,11 +112,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\travel-business\client\src\views\house\components\footer" />
+      <recent name="E:\travel-business\client\src\views\house" />
       <recent name="E:\travel-business\client\src\assets" />
       <recent name="E:\travel-business\client\src\views\search" />
       <recent name="E:\travel-business\client\src" />
-      <recent name="E:\travel-business\client\src\views\order" />
-      <recent name="E:\travel-business\client\src\views\register" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,7 +138,8 @@
       <workItem from="1606961080334" duration="10086000" />
       <workItem from="1606988713357" duration="3988000" />
       <workItem from="1606999263172" duration="1283000" />
-      <workItem from="1607041960882" duration="8800000" />
+      <workItem from="1607041960882" duration="12687000" />
+      <workItem from="1607065798788" duration="732000" />
     </task>
     <servers />
   </component>

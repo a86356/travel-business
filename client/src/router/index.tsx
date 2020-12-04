@@ -8,6 +8,7 @@ import LoginContainer from "../views/login/Container";
 import RegisterContainer from "../views/register/Container";
 import OrderContainer from "../views/order/Container";
 import SearchContainer from "../views/search/Container";
+import HouseContainer from "../views/house/Container";
 import A from "../a";
 
 function Router() {
@@ -22,6 +23,7 @@ function Router() {
         <Route path="/register" exact component={RegisterContainer} />
         <Route path="/order" exact component={OrderContainer} />
         <Route path="/search" exact component={SearchContainer} />
+        <Route path="/house" exact component={HouseContainer} />
         <Route path="/a" exact component={A} />
       </Switch>
     </BrowserRouter>

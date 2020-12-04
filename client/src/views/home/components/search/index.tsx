@@ -45,7 +45,9 @@ function Search(props) {
     });
   };
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    history.push("/search");
+  };
 
   return (
     <div className="search">

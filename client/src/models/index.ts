@@ -5,6 +5,7 @@ import { home } from "./home";
 import { user } from "./user";
 import { order } from "./order";
 import { search } from "./search";
+import { house } from "./house";
 
 export interface RootModel extends Models<RootModel> {
   dolphins: typeof dolphins;
@@ -13,6 +14,7 @@ export interface RootModel extends Models<RootModel> {
   user: typeof user;
   order: typeof order;
   search: typeof search;
+  house: typeof house;
 }
 
 export const models: RootModel = {
@@ -22,4 +24,5 @@ export const models: RootModel = {
   user,
   order,
   search,
+  house,
 };

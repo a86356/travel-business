@@ -6,6 +6,7 @@ import useObserverHook from "../../custom-hooks/useObserverHook";
 import { CommonEnum } from "../../enums";
 import { useDispatch, useSelector } from "react-redux";
 import { search } from "../../models/search";
+import useImgHook from "../../custom-hooks/useImgHook";
 
 export default function SearchContainer() {
   const dispatch = useDispatch();
@@ -33,6 +34,8 @@ export default function SearchContainer() {
     dispatch({ type: "search/setHouseName", payload: "" });
   };
 
+  useImgHook(".item-img", () => {}, [search.searchList]);
+
   return (
     <div className="search-page" id={"searchPage"}>
       {/**顶部搜索栏 */}
@@ -52,8 +55,8 @@ export default function SearchContainer() {
               <img
                 alt="img"
                 className="item-img"
-                src={item?.img}
-                data-src={item?.img}
+                src={require("../../assets/blank.png")}
+                data-src={item.img}
               />
               <div className="item-right">
                 <div className="title">{item?.title}</div>
