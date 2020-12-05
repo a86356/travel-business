@@ -1,11 +1,11 @@
-import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { UserController } from './controller/user/user.controller';
+import {MiddlewareConsumer, Module, NestModule} from '@nestjs/common';
+import { ApiModule } from './module/api/api.module';
+import { SharedModule } from './module/shared/shared.module';
+
 
 @Module({
-  imports: [],
-  controllers: [AppController, UserController],
-  providers: [AppService],
+  imports: [ApiModule, SharedModule],
+  controllers: [],
+  providers: [],
 })
 export class AppModule {}
