@@ -11,8 +11,8 @@ export class UserController {
 
     @Post()
 
-    index(@Body() body: UserLoginDto){
-        return {...body}
+    async index(@Body() body: UserLoginDto){
+        return await this.userservice.findAll()
     }
 
 }
