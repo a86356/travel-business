@@ -1,5 +1,7 @@
-import {Controller, Get, HttpException, HttpStatus} from '@nestjs/common';
+import {Body, Controller, Get, HttpException, HttpStatus, Post, UsePipes} from '@nestjs/common';
 import {UserService} from "../../service/user/user.service";
+import {ValidatePipe} from "../../pipe/validate.pipe";
+import {UserLoginDto} from "../../dto/userLoginDto";
 
 @Controller('user')
 export class UserController {
@@ -7,11 +9,10 @@ export class UserController {
     constructor(private userservice:UserService) {
     }
 
-    @Get()
-    index(){
+    @Post()
 
-        throw new HttpException("throw a error of bad request~!!!!",HttpStatus.BAD_REQUEST);
-        return this.userservice.getString()
+    index(@Body() body: UserLoginDto){
+        return {...body}
     }
 
 }
