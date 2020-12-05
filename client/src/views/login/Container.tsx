@@ -1,14 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { List, InputItem, Button, Toast } from "antd-mobile";
 import { createForm } from "rc-form";
 import "./index.less";
 import useRouterHook from "../../custom-hooks/useRouterHook";
 import { useDispatch } from "react-redux";
+import { getCache, setCache } from "../../utils/cache";
+import { CommonEnum } from "../../enums";
 
 function LoginContainer(props) {
   const { history, location } = useRouterHook();
   const { getFieldProps, validateFields } = props.form;
   const dispatch = useDispatch();
+
+  //保留跳转过来的页面，登陆成功之后跳转回去
+  useEffect(() => {
+    const state: any = location.state;
+    if (state?.from) {
+      setCache(CommonEnum.FROM_PATH, state.from, "object");
+    }
+  }, []);
 
   const handleSubmit = () => {
     validateFields((error, value) => {
@@ -21,21 +31,14 @@ function LoginContainer(props) {
           payload: value,
         });
         p.then((res) => {
-          const { code, msg, data } = res;
-
-          if (code != 0) {
-            Toast.fail(msg);
-            return;
+          if (res) {
+            const from_path = getCache(CommonEnum.FROM_PATH, "object");
+            if (from_path) {
+              history.push(from_path.pathname);
+            } else {
+              history.push("/");
+            }
           }
-          Toast.show("登陆成功");
-          history.push("/");
-
-          // const from_path = getCache(CommonEnum.FROM_PATH);
-          // if (from_path) {
-          //   history.push(from_path.pathname);
-          // } else {
-          //   history.push("/");
-          // }
         });
       }
     });

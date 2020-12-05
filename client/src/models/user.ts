@@ -4,11 +4,12 @@ import { RootModel } from ".";
 import Http from "../utils/http";
 import dayjs from "dayjs";
 import { Toast } from "antd-mobile";
-
+import { getCache, setCache } from "../utils/cache";
+import { CommonEnum } from "../enums";
 export const user = createModel<RootModel>()({
   state: {
-    userInfo: {},
-    token: "",
+    userInfo: getCache(CommonEnum.USERINFO, "object"),
+    token: getCache(CommonEnum.TOKEN),
   },
   reducers: {
     setUserInfo: (state: any, payload) => {
@@ -16,6 +17,9 @@ export const user = createModel<RootModel>()({
         ...state,
         userInfo: payload,
       };
+    },
+    setToken: (state, payload) => {
+      return { ...state, token: payload };
     },
   },
   effects: (dispatch: any) => ({
@@ -47,7 +51,26 @@ export const user = createModel<RootModel>()({
         url: "/user/login",
         body: { ...payload },
       });
-      return result;
+
+      if (result.code == 0) {
+        Toast.show("登陆成功");
+        setCache(CommonEnum.USERINFO, result.data, "object");
+        setCache(CommonEnum.TOKEN, result.data.token);
+        Toast.show("登陆成功");
+        dispatch({
+          type: "user/setToken",
+          payload: result.data.token,
+        });
+        dispatch({
+          type: "user/setUserInfo",
+          payload: result.data,
+        });
+
+        return true;
+      } else {
+        Toast.fail(result.msg);
+        return false;
+      }
     },
     async registerAsync(payload, state) {
       const { userEdit } = state;

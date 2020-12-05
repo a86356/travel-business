@@ -20,53 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a92184-5fd6-4a0e-b4ad-9df0079f96da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/CreatePortal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Modal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/showLoading/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/showLoading/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/custom-hooks/useObserverHook.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/enums/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/enums/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/models/house.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/models/order.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/models/search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/timer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/house/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/banner/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/footer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/info/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/house/components/list/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/house/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/login/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/login/components/header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/login/components/hot/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/login/components/search/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/login/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/order/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/order/components/item/Item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/order/components/lists/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/order/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/register/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/register/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/search/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/search/components/item/Item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/search/components/lists/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/search/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ErrorBoundary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ErrorBoundary/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/a.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/a.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/a.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/b.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/home/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/home/components/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/home/components/search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/home/components/search/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/user/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/user/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/user/edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/user/edit/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/login/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/login/Container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/views/house/components/footer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,less,css}" />
@@ -112,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\travel-business\client\src\components\ErrorBoundary" />
       <recent name="E:\travel-business\client\src\views\house\components\footer" />
       <recent name="E:\travel-business\client\src\views\house" />
       <recent name="E:\travel-business\client\src\assets" />
       <recent name="E:\travel-business\client\src\views\search" />
-      <recent name="E:\travel-business\client\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -139,7 +102,8 @@
       <workItem from="1606988713357" duration="3988000" />
       <workItem from="1606999263172" duration="1283000" />
       <workItem from="1607041960882" duration="12687000" />
-      <workItem from="1607065798788" duration="732000" />
+      <workItem from="1607065798788" duration="4000000" />
+      <workItem from="1607129311172" duration="36000" />
     </task>
     <servers />
   </component>
@@ -170,10 +134,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="728" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1606999334657" />
-    <state x="738" y="302" key="FileChooserDialogImpl" timestamp="1606891925846">
+    <state x="738" y="302" key="FileChooserDialogImpl" timestamp="1607129345190">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="738" y="302" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1606891925846" />
+    <state x="738" y="302" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607129345190" />
     <state x="550" y="188" key="SettingsEditor" timestamp="1606971371157">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
