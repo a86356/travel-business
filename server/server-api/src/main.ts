@@ -11,6 +11,9 @@ async function bootstrap() {
   app.useGlobalInterceptors(new TransformInterceptor());
 
 
+  app.setGlobalPrefix('api'); // http://localhost:5001/test  =>  http://localhost:5001/api/test
+
+
   await app.listen(4000);
 }
 bootstrap();

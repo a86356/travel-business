@@ -7,10 +7,10 @@ import {UserLoginDto} from "../../dto/userLoginDto";
 export class UserController {
 
     constructor(private userservice:UserService) {
+
     }
 
     @Post()
-
     async index(@Body() body: UserLoginDto){
         return await this.userservice.findAll()
     }

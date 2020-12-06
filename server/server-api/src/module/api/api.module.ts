@@ -6,10 +6,13 @@ import { APP_FILTER,APP_GUARD  } from '@nestjs/core';
 import {HttpExceptionFilter} from "./filter/http-exception.filter";
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthGuard } from './guard/auth.guard';
-import {User} from "../../entity/user.entity";
+import {User} from "../../entity/user";
+import {City} from "../../entity/city";
+import { CommonsController } from './controller/commons/commons.controller';
+import { CommonsService } from './service/commons/commons.service';
 
 @Module({
-  controllers: [UserController],
+  controllers: [UserController, CommonsController],
   providers: [UserService, {
     provide: APP_FILTER,
     useClass: HttpExceptionFilter,
@@ -18,6 +21,7 @@ import {User} from "../../entity/user.entity";
       provide: APP_GUARD,
       useClass: AuthGuard,
     },
+    CommonsService,
   ],
   imports: [
     TypeOrmModule.forRoot({
@@ -27,10 +31,10 @@ import {User} from "../../entity/user.entity";
       username: 'root',
       password: 'root',
       database: 'travel',
-      entities: [User],  //实体部分
+      entities: [User,City],  //实体部分
       synchronize: true,
     }),
-    TypeOrmModule.forFeature([User]),  //实体
+    TypeOrmModule.forFeature([User,City]),  //实体
   ]
 })
 export class ApiModule implements NestModule {
