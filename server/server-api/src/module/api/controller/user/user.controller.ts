@@ -13,6 +13,7 @@ import { UserLoginDto } from '../../dto/userLoginDto';
 import { toUserInfoDto } from '../../dto/toUserinfoDto';
 import { saveUserinfoDto } from '../../dto/saveUserinfoDto';
 import { registerDto } from '../../dto/registerDto';
+import { loginDto } from '../../dto/loginDto';
 
 @Controller('user')
 export class UserController {
@@ -36,5 +37,10 @@ export class UserController {
   @Post('/register')
   async register(@Body() body: registerDto) {
     return await this.userservice.register(body);
+  }
+
+  @Post('/login')
+  async login(@Body() body: loginDto) {
+    return toUserInfoDto(await this.userservice.login(body));
   }
 }

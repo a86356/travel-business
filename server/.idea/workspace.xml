@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c3e737-357b-44eb-b4c6-ad5cb835935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/addCommentDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/houseDetailDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-api/src/utils/Timer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/loginDto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/api.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/api.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/commons/commons.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/commons/commons.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/house/house.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/house/house.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/guard/auth.guard.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/guard/auth.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/middleware/logger.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/middleware/logger.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/user/user.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-api/src/module/api/service/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/service/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +71,7 @@
       <workItem from="1607172072313" duration="284000" />
       <workItem from="1607214867092" duration="1946000" />
       <workItem from="1607216929694" duration="7384000" />
-      <workItem from="1607301953234" duration="13549000" />
+      <workItem from="1607301953234" duration="15228000" />
     </task>
     <servers />
   </component>

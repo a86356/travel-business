@@ -76,4 +76,27 @@ export class UserService {
       'http://img3.mukewang.com/szimg/5d1032ab08719e0906000338-360-202.jpg';
     this.usersRepository.save(entity);
   }
+
+  async login(body): Promise<User> {
+    const { username, password } = body;
+
+    //用户名是不是注册过
+    const oldUser = await this.usersRepository.findOne({ username: username });
+    if (!oldUser) {
+      throw new HttpException('用户名不存在', HttpStatus.BAD_REQUEST);
+    }
+
+    //加密后的md5密码
+    let newPwd = encryptPwd(password);
+
+    const user2 = await this.usersRepository.findOne({
+      username: username,
+      password: newPwd,
+    });
+    if (!user2) {
+      throw new HttpException('密码错误', HttpStatus.BAD_REQUEST);
+    }
+
+    return user2;
+  }
 }
