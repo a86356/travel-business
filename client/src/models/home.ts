@@ -52,7 +52,6 @@ export const home = createModel<RootModel>()({
     async getCityListsAsync() {
       const result: any = await Http({
         url: "/commons/citys",
-        method: "post",
       });
 
       dispatch({

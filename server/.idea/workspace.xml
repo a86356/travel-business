@@ -49,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Administrator\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1607172072313" duration="284000" />
       <workItem from="1607214867092" duration="1946000" />
       <workItem from="1607216929694" duration="7384000" />
-      <workItem from="1607301953234" duration="15228000" />
+      <workItem from="1607301953234" duration="18022000" />
     </task>
     <servers />
   </component>
@@ -95,10 +95,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="868" y="310" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1607150371847" />
-    <state x="796" y="313" key="FileChooserDialogImpl" timestamp="1607322585255">
+    <state x="796" y="313" key="FileChooserDialogImpl" timestamp="1607326885101">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="796" y="313" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607322585255" />
+    <state x="796" y="313" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607326885101" />
     <state x="539" y="226" key="SettingsEditor" timestamp="1607324176534">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>

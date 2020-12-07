@@ -4,7 +4,7 @@ import { ValidatePipe } from './module/api/pipe/validate.pipe';
 import { TransformInterceptor } from './interceptor/transform.interceptor';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, { cors: true });
 
   app.useGlobalPipes(new ValidatePipe());
   // 全局注册拦截器

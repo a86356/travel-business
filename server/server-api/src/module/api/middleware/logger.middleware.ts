@@ -36,8 +36,6 @@ export class LoggerMiddleware implements NestMiddleware {
       }
     });
 
-    //const t = await this.UserService.getUserInfo();
-
     next();
   }
 }
