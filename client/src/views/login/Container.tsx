@@ -20,7 +20,7 @@ function LoginContainer(props) {
     }
   }, []);
 
-  const handleSubmit = () => {
+   const handleSubmit = () => {
     validateFields((error, value) => {
       if (error) {
         Toast.fail("请将信息填写完整");

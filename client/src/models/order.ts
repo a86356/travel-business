@@ -68,7 +68,7 @@ export const order = createModel<RootModel>()({
 
       dispatch({
         type: "order/setList",
-        payload: [...order.list, ...result],
+        payload: [...order.list, ...result.data],
       });
       dispatch({
         type: "order/setResult",

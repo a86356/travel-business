@@ -56,7 +56,7 @@ export const search = createModel<RootModel>()({
       });
       dispatch({
         type: "search/setSearchList",
-        payload: result,
+        payload: result.data,
       });
     },
   }),

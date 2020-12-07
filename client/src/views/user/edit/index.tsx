@@ -25,7 +25,7 @@ function Edit(props) {
         const promise: any = dispatch({
           type: "user/saveUserAsync",
           payload: {
-            img: files[0].url,
+            avatar: files[0].url,
             tel: value.tel,
             sign: value.sign,
           },

@@ -27,9 +27,11 @@ export const user = createModel<RootModel>()({
       const result: any = await Http({
         url: "/user/info",
       });
+
+
       dispatch({
         type: "user/setUserInfo",
-        payload: result,
+        payload: result.data,
       });
     },
     async saveUserAsync(payload, state) {
@@ -38,7 +40,7 @@ export const user = createModel<RootModel>()({
         body: { ...payload },
       });
 
-      if (result.code === "0") {
+      if (result.code == 0) {
         Toast.show("保存成功!");
         return true;
       } else {
@@ -68,7 +70,8 @@ export const user = createModel<RootModel>()({
 
         return true;
       } else {
-        Toast.fail(result.msg);
+        Toast.fail(result.message);
+        console.log(result)
         return false;
       }
     },

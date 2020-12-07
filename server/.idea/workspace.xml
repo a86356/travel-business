@@ -20,9 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c3e737-357b-44eb-b4c6-ad5cb835935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/loginDto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/models/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/models/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/models/house.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/models/house.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/models/order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/models/order.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/models/search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/models/search.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/utils/http.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/utils/http.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/views/login/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/views/login/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/views/user/edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/views/user/edit/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/user/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/api.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/api.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/house/house.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/house/house.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/dto/houseDetailDto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/houseDetailDto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/service/house/house.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/service/house/house.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-api/src/module/api/service/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/service/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +84,7 @@
       <workItem from="1607214867092" duration="1946000" />
       <workItem from="1607216929694" duration="7384000" />
       <workItem from="1607301953234" duration="18022000" />
+      <workItem from="1607341686501" duration="3484000" />
     </task>
     <servers />
   </component>
@@ -95,10 +108,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="868" y="310" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1607150371847" />
-    <state x="796" y="313" key="FileChooserDialogImpl" timestamp="1607326885101">
+    <state x="796" y="313" key="FileChooserDialogImpl" timestamp="1607344381833">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="796" y="313" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607326885101" />
+    <state x="796" y="313" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607344381833" />
     <state x="539" y="226" key="SettingsEditor" timestamp="1607324176534">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>

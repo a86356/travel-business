@@ -74,6 +74,8 @@ export class UserService {
     entity.token = token;
     entity.avatar =
       'http://img3.mukewang.com/szimg/5d1032ab08719e0906000338-360-202.jpg';
+    entity.tel = '';
+    entity.sign = '';
     this.usersRepository.save(entity);
   }
 

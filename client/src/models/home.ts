@@ -56,7 +56,7 @@ export const home = createModel<RootModel>()({
 
       dispatch({
         type: "home/setCitys",
-        payload: result,
+        payload: result.data,
       });
     },
     async getHotListsAsync() {
@@ -66,7 +66,7 @@ export const home = createModel<RootModel>()({
 
       dispatch({
         type: "home/setHotList",
-        payload: result,
+        payload: result.data,
       });
     },
   }),

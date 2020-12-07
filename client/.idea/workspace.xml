@@ -20,18 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a317e1cf-5758-4d8c-aa35-80cb59be1211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorBoundary/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorBoundary/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/house.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/house.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/order.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/search.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/components/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/http.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/http.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/login/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/user/edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/edit/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/server-api/src/module/api/api.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server/server-api/src/module/api/api.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/server-api/src/module/api/controller/house/house.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server/server-api/src/module/api/controller/house/house.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/server-api/src/module/api/dto/houseDetailDto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server/server-api/src/module/api/dto/houseDetailDto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/server-api/src/module/api/service/house/house.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server/server-api/src/module/api/service/house/house.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/server-api/src/module/api/service/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server/server-api/src/module/api/service/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,9 @@
       <option name="presentableId" value="Default" />
       <updated>1607130271709</updated>
       <workItem from="1607130272752" duration="1827000" />
-      <workItem from="1607326888735" duration="720000" />
+      <workItem from="1607326888735" duration="2737000" />
+      <workItem from="1607341673894" duration="9000" />
+      <workItem from="1607341696228" duration="3302000" />
     </task>
     <servers />
   </component>
@@ -87,9 +93,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1149" y="404" key="FileChooserDialogImpl" timestamp="1607137611131">
+    <state x="1149" y="404" key="FileChooserDialogImpl" timestamp="1607341678534">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="1149" y="404" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607137611131" />
+    <state x="1149" y="404" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607341678534" />
   </component>
 </project>

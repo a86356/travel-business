@@ -39,8 +39,9 @@ export const house = createModel<RootModel>()({
 
       const result: any = await Http({
         url: "/house/detail",
-        body: { ...payload },
+        body: { ...payload,id:1 },
       });
+
       const { banner, info } = result.data;
       dispatch({
         type: "house/setBanner",
@@ -65,7 +66,7 @@ export const house = createModel<RootModel>()({
 
       dispatch({
         type: "house/setComments",
-        payload: [...house.comments, ...result],
+        payload: [...house.comments, ...result.data],
       });
     },
     async addCommentsAsync(payload, state) {

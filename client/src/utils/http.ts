@@ -1,4 +1,6 @@
 import { Toast } from "antd-mobile";
+import {getCache} from "./cache";
+import {CommonEnum} from "../enums";
 
 export default function Http({
   url = "",
@@ -14,14 +16,18 @@ export default function Http({
     "Content-type": "application/json",
   };
 
+  const token =  getCache(CommonEnum.TOKEN,'string')
+  if(token){
+    headers = { ...defaultHeader,...headers,token:token}
+  }
+
   let params: any;
   if (method.toUpperCase() === "GET") {
     params = undefined;
   } else {
     params = {
       headers: {
-        ...defaultHeader,
-        headers,
+        ...headers,
       },
       method,
       body: JSON.stringify(body),
@@ -33,11 +39,11 @@ export default function Http({
       .then((res) => res.json())
       .then((res: any) => {
         if (res.code === 0) {
-          resolve(res.data);
+          resolve(res);
           setResult && setResult(res.data);
         } else {
-          Toast.fail(res.errMsg);
-          reject(res.errMsg);
+          Toast.fail(res.message);
+          reject(res.message);
         }
       })
       .catch((err) => {

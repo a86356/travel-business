@@ -36,11 +36,11 @@ const list = [User, City, House, Comment];
     CommonsService,
     HouseService,
     CommentsService,
+    OrderService,
     {
       provide: APP_FILTER,
       useClass: HttpExceptionFilter,
     },
-    OrderService,
   ],
   imports: [
     TypeOrmModule.forRoot({
@@ -55,7 +55,6 @@ const list = [User, City, House, Comment];
     }),
     TypeOrmModule.forFeature(list), //实体
   ],
-  exports: [UserService],
 })
 export class ApiModule implements NestModule {
   configure(consumer: MiddlewareConsumer): any {
