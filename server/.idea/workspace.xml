@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c3e737-357b-44eb-b4c6-ad5cb835935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/addCommentDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/module/api/dto/houseDetailDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/utils/Timer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/entity/user.entity.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server-api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-api/src/module/api/api.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/api.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/user/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/commons/commons.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/commons/commons.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/controller/house/house.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/controller/house/house.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/guard/auth.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/guard/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/src/module/api/middleware/logger.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/middleware/logger.middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-api/src/module/api/service/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/src/module/api/service/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +59,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Administrator\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="E:\travel-business\server\server-api\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,7 +78,8 @@
       <workItem from="1607169884985" duration="1073000" />
       <workItem from="1607172072313" duration="284000" />
       <workItem from="1607214867092" duration="1946000" />
-      <workItem from="1607216929694" duration="3420000" />
+      <workItem from="1607216929694" duration="7384000" />
+      <workItem from="1607301953234" duration="13549000" />
     </task>
     <servers />
   </component>
@@ -94,9 +103,13 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="868" y="310" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1607150371847" />
-    <state x="796" y="313" key="FileChooserDialogImpl" timestamp="1607218423953">
+    <state x="796" y="313" key="FileChooserDialogImpl" timestamp="1607322585255">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="796" y="313" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607218423953" />
+    <state x="796" y="313" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607322585255" />
+    <state x="539" y="226" key="SettingsEditor" timestamp="1607324176534">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="539" y="226" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1607324176534" />
   </component>
 </project>

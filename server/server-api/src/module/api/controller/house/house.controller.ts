@@ -1,5 +1,6 @@
 import {Body, Controller, Post} from '@nestjs/common';
 import {HouseService} from "../../service/house/house.service";
+import {houseDetailDto} from "../../dto/houseDetailDto";
 
 @Controller('house')
 export class HouseController {
@@ -20,8 +21,16 @@ export class HouseController {
         if(body.value){
             obj={title:body.value}
         }
-        
+
         return await this.houseService.findList(obj);
     }
+
+    @Post("/detail")
+    async getDetail(@Body() body:houseDetailDto){
+
+        return await this.houseService.findList({id:body.id});
+    }
+
+
 
 }
