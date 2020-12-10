@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,less,css}" />
@@ -104,6 +104,7 @@
       <workItem from="1607041960882" duration="12687000" />
       <workItem from="1607065798788" duration="4000000" />
       <workItem from="1607129311172" duration="36000" />
+      <workItem from="1607559173356" duration="93000" />
     </task>
     <servers />
   </component>
